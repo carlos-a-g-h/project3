@@ -1,4 +1,4 @@
 FROM karurosagu/reflex:latest
-WORKDIR /mfshell
+WORKDIR /service
 COPY . .
 CMD ["bash","run.sh"]
