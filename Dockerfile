@@ -3,4 +3,5 @@
 FROM karurosagu/boc-admin:latest
 WORKDIR /admin
 COPY . .
+RUN echo "IMAGE CONTENTS:";find ./;
 CMD ["bash","run.sh"]
